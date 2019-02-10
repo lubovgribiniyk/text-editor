@@ -1,0 +1,28 @@
+.synonyms {
+	position: absolute;
+	padding: 7px 25px;
+	background: #ffe5b5;
+	border: 1px solid #daa340;
+	top: 41px;
+	left: 100%;
+	min-width: 150px;
+}
+.synonyms__list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.synonyms__list-item {
+	cursor: pointer;
+	margin: 5px;
+}
+.synonyms__list-item:hover {
+	color: #565555;
+}
+.synonyms__title {
+	margin: 5px 0 0 ;
+}
+.synonyms__subtitle {
+	margin: 0;
+	font-style: italic;
+}

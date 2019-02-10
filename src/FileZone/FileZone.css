@@ -1,15 +1,18 @@
-#file-zone {
+.file-zone {
     background-color:#f1f0f0;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding-top: 5px;
+    box-sizing: border-box;
 }
 
-#file {
-    width: 600px;
+.file {
+    width: 100%;
     flex-grow: 1;
     background-color: #fff;
     border: 1px solid #e4dede;
+    padding: 10px;
+    box-sizing: border-box;
 }
